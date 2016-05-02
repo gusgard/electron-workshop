@@ -1,0 +1,7 @@
+node_modules/
+npm-debug.log
+electron-workshop-darwin-x64/
+electron-workshop-linux-x64/
+electron-workshop-win32-ia32/
+electron-workshop-win32-x64/
+.DS_Store

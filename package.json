@@ -1,0 +1,22 @@
+{
+  "name": "electron-workshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "osx": "electron-packager . --platform=darwin --arch=x64 --overwrite",
+    "win64": "electron-packager . --platform=win32 --arch=x64 --overwrite",
+    "win32": "electron-packager . --platform=win32 --arch=ia32 --overwrite",
+    "linux": "electron-packager . --platform=linux --arch=x64 --overwrite"
+  },
+  "author": "Gustavo Gard",
+  "license": "ISC",
+  "dependencies": {
+    "electron-prebuilt": "^0.37.6",
+    "electron-reload": "^0.2.0",
+    "jquery": "^2.2.3",
+    "electron-packager": "^6.0.2",
+    "electron-prebuilt": "^0.37.6"
+  }
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="UTF-8">
+    <title>Hello Electron</title>
+  <link rel="stylesheet" href="www/styles.css">
+
+  </head>
+  <body>
+    <h1>Hello from Electron!</h1>
+    <div id="info"></div>
+    <p><button id="clickme">Click Me</button></p>
+
+    <div id="gui"></div>
+    <div id="canvas-container">
+      <div id="mountains2"></div>
+      <div id="mountains1"></div>
+      <div id="skyline"></div>
+    </div>
+
+    <script>window.$ = window.jQuery = require('./node_modules/jquery/dist/jquery.js');</script>
+    <script src="www/app.js"></script>
+    <script src="www/fireworks.js"></script>
+  </body>
+</html>
